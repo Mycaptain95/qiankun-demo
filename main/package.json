@@ -1,0 +1,35 @@
+{
+  "name": "main",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "start:multiple": "cross-env MODE=multiple webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "babel-loader": "^8.0.6",
+    "cross-env": "^7.0.2",
+    "css-loader": "^3.2.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "less-loader": "^6.2.0",
+    "style-loader": "^1.0.0",
+    "vue-loader": "15.10.0",
+    "vue-template-compiler": "2.7.10",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {
+    "core-js": "^3.3.2",
+    "element-ui": "^2.12.0",
+    "qiankun": "^2.7.0",
+    "vue": "^2.6.10",
+    "vue-router": "^3.1.3",
+    "vuex": "^3.0.1"
+  }
+}
